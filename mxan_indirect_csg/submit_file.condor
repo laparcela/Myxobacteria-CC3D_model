@@ -1,0 +1,12 @@
+executable     = run_cc3d.sh
+
+output         = example_$(Process).out
+error          = example_$(Process).err
+log            = example_$(Process).log
+
+# requests for 1 cpu are most likely to run in patung, the head node
+# request more than one cpu to see it run in katsina worker nodes
+request_cpus   = 1
+
+queue 2
+

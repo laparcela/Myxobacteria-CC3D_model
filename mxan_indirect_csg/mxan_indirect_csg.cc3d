@@ -1,0 +1,5 @@
+<Simulation version="3.6.2">
+   <XMLScript Type="XMLScript">Simulation/mxan_indirect_csg.xml</XMLScript>
+   <PythonScript Type="PythonScript">Simulation/mxan_indirect_csg.py</PythonScript>
+   <Resource Type="Python">Simulation/mxan_indirect_csgSteppables.py</Resource>
+</Simulation>
